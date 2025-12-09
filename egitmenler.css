@@ -1,0 +1,163 @@
+*{margin: 0;}
+.header-main{
+    background-color: #417cd5;
+    padding: 15px;
+}
+
+.main-nav ul {
+    list-style: none;        
+    margin: 0;
+    padding: 0;
+    display: flex;           
+    background-color: #ffffff;  
+}
+
+.main-nav ul li {
+    margin: 0;                
+}
+
+.main-nav ul li a {
+    display: block;
+    padding: 15px 80px;       
+    color: rgb(63, 92, 132);             
+    text-decoration: none;   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.main-nav ul li a:hover {
+    background-color: #bdbdbd;   
+}
+
+body {
+    background: #f0f4fb; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.egitmenler-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 40px;
+}
+
+.egitmenler-title {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 40px;
+}
+
+.egitmen-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 35px;
+}
+
+.egitmen-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+    transition: 0.25s;
+}
+
+.egitmen-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+}
+
+.egitmen-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.egitmen-info {
+    padding: 20px;
+    text-align: center;
+}
+
+.egitmen-info h3 {
+    font-size: 22px;
+    margin: 5px 0;
+    color: #003366;
+    font-weight: bold;
+}
+
+.branş {
+    font-size: 15px;
+    color: #0057c2;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.egitmen-info p {
+    color: #444;
+    line-height: 1.5;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.footer {
+    background: #417cd5; 
+    color: white;
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    width: 25%;
+}
+
+.footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.footer-column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.footer-line {
+    display: block;
+    width: 70%;
+    height: 3px;
+    background: #F2C000;
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    color: white;
+    text-decoration: none;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+.footer-column a:hover {
+    opacity: 0.7;
+}
+

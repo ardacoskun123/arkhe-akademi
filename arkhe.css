@@ -1,0 +1,233 @@
+
+* {margin: 0;}
+html {
+    scroll-behavior: smooth;
+}
+
+.header-main{
+    background-color: #417cd5;
+    padding: 15px;
+    }
+#bursluluk{
+    background: #ffffff;
+    color: #004a99;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.burs-btn {
+    background: #ffffff;
+    color: #003bb5;
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.burs-btn:hover {
+    background: #bdbdbd;
+}
+.main-nav ul {
+    list-style: none;        
+    margin: 0;
+    padding: 0;
+    display: flex;           
+    background-color: #ffffff;
+          
+}
+
+.main-nav ul li {
+    margin: 0;                
+}
+
+.main-nav ul li a {
+    display: block;
+    padding: 15px 80px;       
+    color: rgb(63, 92, 132);             
+    text-decoration: none;   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold;  
+    margin: auto;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.main-nav ul li a:hover {
+        background-color: #bdbdbd;   
+}
+
+.ortakisim {
+    width: 100%;
+    background-color: #dfeeff;
+    padding: 40px 0;
+}
+
+.hero-section {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.hero-img {
+    width: 500px;  
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.hero-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0e2550;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.hero-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: #feca57;  
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    border-radius: 4px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    line-height: 1.75;
+    color: #444;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.contact-section {
+    display: flex;
+    width: 100%;
+    height: 650px;
+}
+
+
+.left-image {
+    width: 50%;
+    height: 100%;
+    background-image: url('img/arkhafoto1.png'); 
+    background-size: cover;
+    background-position: center;
+    filter: brightness(85%);
+}
+
+
+.form-area {
+    width: 50%;
+    background: #bdbdbd;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.form-area h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 800;
+}
+
+.form-area form input,
+.form-area form select {
+    width: 100%;
+    padding: 16px;
+    margin: 12px 0;
+    border-radius: 6px;
+    border: none;
+    font-size: 17px;
+}
+
+.form-area button {
+    margin-top: 20px;
+    width: 180px;
+    padding: 16px;
+    background: #F3C632;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-area button:hover {
+    opacity: 0.9;
+}
+
+
+
+.footer {
+    background: #417cd5; 
+    color: rgb(0, 0, 0);
+    padding: 60px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    width: 25%;
+}
+
+.footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-left p {
+    margin: 12px 0;
+    line-height: 1.5;
+}
+
+.footer-column {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.footer-line {
+    display: block;
+    width: 70%;
+    height: 3px;
+    background: #F2C000;
+    margin-bottom: 15px;
+}
+
+.footer-column a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 6px 0;
+    font-size: 16px;
+}
+
+.footer-column a:hover {
+    opacity: 0.7;
+}
+
+
